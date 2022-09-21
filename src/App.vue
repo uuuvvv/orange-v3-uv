@@ -14,13 +14,17 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <p>123</p>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
+}
+p{
+  color: $i-175;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
